@@ -17,7 +17,9 @@ This is your project home for the FURP programme. **Fork this template**, rename
    ```
 3. **Give us access:** either make the repo **public**, or **share it** with the research group accounts (ask your project lead for the usernames to add as collaborators).
 4. **Fill in this README** — replace the placeholders in the *Project Info* section below.
-5. **Start your weekly log** in [`docs/00_weekly.md`](docs/00_weekly.md).
+5. **Start your weekly log** by copying the template in
+   [`docs/00_weekly.md`](docs/00_weekly.md) to a numbered weekly file, beginning
+   with [`docs/01_weekly.md`](docs/01_weekly.md).
 
 ---
 
@@ -32,9 +34,17 @@ This is your project home for the FURP programme. **Fork this template**, rename
 | Supervising faculty | _..._ |
 | Project lead | _..._ |
 | Team or individual | _..._ |
-| Cited paper being replicated | _title + link/DOI_ |
+| Cited paper being replicated | Michael Schneider, Andreas Stenger, and Dominik Goeke (2014), [The Electric Vehicle-Routing Problem with Time Windows and Recharging Stations](https://doi.org/10.1287/trsc.2013.0490), *Transportation Science*, 48(4), 500-520. DOI: `10.1287/trsc.2013.0490` |
 
 **One-line summary:** _What is your project about? (1–2 sentences)_
+
+### Replication paper resources
+
+- [Publisher page and DOI](https://doi.org/10.1287/trsc.2013.0490)
+- [Public E-VRPTW benchmark instances](https://doi.org/10.17632/h3mrm5dhxw.1)
+- [Selection rationale and candidate comparison](docs/reference_selection.md)
+- [BibTeX entry](docs/references.bib)
+- [Local environment and solver setup](docs/environment.md)
 
 ---
 
@@ -44,13 +54,16 @@ This structure is **mandatory** — please keep it intact.
 
 ```
 /docs
- ├── 00_weekly.md         ← update EVERY week: progress, challenges, next steps
+ ├── 00_weekly.md         ← weekly-log template; keep unchanged
+ ├── 01_weekly.md         ← Week 1 progress, challenges, and next steps
  └── meeting_notes/       ← key takeaways from all team meetings
 /src                      ← your code / experiments / materials
 FURP_Showcase.pdf         ← your poster / presentation PDF, in the repo root
 ```
 
-- **`docs/00_weekly.md`** — your weekly progress log. This is the first thing we check.
+- **`docs/00_weekly.md`** — the reusable weekly-log template.
+- **`docs/NN_weekly.md`** — one numbered progress log per week, starting with
+  `01_weekly.md`. The latest weekly file is the first thing reviewers check.
 - **`docs/meeting_notes/`** — one file per meeting with key takeaways and action items.
 - **`src/`** — all your code, scripts, notebooks, and experiment materials.
 - **`FURP_Showcase.pdf`** — your final poster, placed in the **repo root** with this exact filename.
@@ -75,7 +88,7 @@ To earn your FURP certificate, **all three** must be satisfied:
 
 Every week, you should:
 
-- ✅ Update [`docs/00_weekly.md`](docs/00_weekly.md)
+- ✅ Create or update the current numbered weekly file in `docs/`
 - ✅ Log meeting notes in [`docs/meeting_notes/`](docs/meeting_notes/)
 - ✅ Attend the weekly meeting (online or in person)
 
@@ -100,7 +113,7 @@ Any **leave of absence** or **withdrawal** must be notified to us **by email** �
 - [ ] Forked the template and renamed the repo (`FURP-2025/YourName-ProjectTag`)
 - [ ] Made the repo public **or** shared it with the research group
 - [ ] Filled in the *Project Info* table above
-- [ ] Started `docs/00_weekly.md`
+- [ ] Created `docs/01_weekly.md` from the weekly template
 - [ ] Created my first file in `docs/meeting_notes/`
 - [ ] (By Showcase) Added `FURP_Showcase.pdf` to the repo root
 

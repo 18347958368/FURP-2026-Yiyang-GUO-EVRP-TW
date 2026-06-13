@@ -1,17 +1,21 @@
-# `/src` — your work goes here
+# Source Code
 
-Put all your code, scripts, notebooks, experiment configs, and project materials in this folder.
+The `evrptw` Python package and its native C++ extension live in this directory.
 
-**Research Track reminder:** your project should reproduce a cited paper and add **at least 10% innovation** (something new on top of the replication). Organise this folder however suits your project, but keep it tidy enough that a reviewer can follow what you did.
+From the repository root:
 
-Suggested (not mandatory) layout:
-
-```
-/src
- ├── README.md          ← how to run your code / what's here
- ├── data/              ← datasets (or links if too large to commit)
- ├── experiments/       ← scripts, notebooks, configs
- └── results/           ← outputs, figures, logs
+```bash
+uv sync --all-groups
+uv run evrptw-env
 ```
 
-> Don't commit large datasets or secrets/credentials. Link to data sources instead.
+The package currently provides:
+
+- a parser for Schneider E-VRPTW benchmark files;
+- route feasibility checks for capacity, battery, and time windows;
+- deterministic two-opt/VNS scaffolding;
+- a C++20 extension for route-distance and two-opt calculations;
+- reproducible environment and run metadata.
+
+Large benchmark datasets and generated run outputs are intentionally excluded
+from Git. See [`docs/environment.md`](../docs/environment.md) for setup details.

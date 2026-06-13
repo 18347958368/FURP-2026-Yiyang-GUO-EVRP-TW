@@ -1,9 +1,10 @@
-# Weekly Progress Log
+# Weekly Progress Log Template
 
-> Update this file **every week**. Add a new entry at the top for each week.
-> This is the first thing we check during review. Keep it honest and specific — it also feeds your attendance record (Rule 1).
+> Keep this template unchanged. For each week, copy it to a new numbered file:
+> `01_weekly.md`, `02_weekly.md`, and so on.
 
-**How to use:** copy the *Week template* block below for each new week. Newest week goes at the top.
+**How to use:** copy the block below into the current numbered weekly file and
+replace every placeholder with honest, specific information.
 
 ---
 
@@ -28,22 +29,4 @@
 
 ---
 
-<!-- =================  YOUR ENTRIES BELOW  ================= -->
-
-### Week 1 — YYYY-MM-DD
-
-**Attended this week's meeting:** Yes / No
-
-**Progress this week**
-- Set up repository from the FURP template.
-- _..._
-
-**Challenges & blockers**
-- _..._
-
-**Next steps**
-- _..._
-
-**Hours spent (optional):**
-
-**Links (optional):**
+<!-- Do not add weekly entries to this template file. -->
