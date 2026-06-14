@@ -15,13 +15,16 @@ absence and no leave request was required.
 - Selected Schneider, Stenger, and Goeke (2014), *The Electric Vehicle-Routing
   Problem with Time Windows and Recharging Stations*, as the primary replication
   paper. Recorded its complete citation, DOI, selection rationale, BibTeX entry,
-  and public benchmark-data link. Also collected supporting literature on
-  partial charging, nonlinear charging, heterogeneous electric fleets, and the
-  wider electric-goods-distribution research context.
-- Organised the reference PDFs in a local literature directory outside the Git
-  repository and created an ignored local shortcut from the repository. This
-  keeps copyrighted papers and large local files out of Git while preserving a
-  convenient project workspace.
+  and public benchmark-data link. Also identified supporting journal articles
+  on partial charging, nonlinear charging, heterogeneous electric fleets, and
+  the wider electric-goods-distribution research context, recording their
+  titles and DOIs for later reading.
+- Verified and organised the formal 2014 journal version of the primary paper in
+  a local literature directory outside the Git repository. Other candidate
+  PDFs are to be obtained by the student and added only after their formal
+  journal versions have been verified. Created an ignored local shortcut from
+  the repository so copyrighted papers and large local files remain outside
+  Git while the literature directory stays convenient to access.
 - Established an isolated Apple Silicon research environment using Python
   3.13.13 and `uv`. Added `.python-version`, `pyproject.toml`, and `uv.lock` so
   the Python version and dependency set can be reproduced consistently. Python

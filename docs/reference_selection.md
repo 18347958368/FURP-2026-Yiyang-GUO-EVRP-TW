@@ -51,11 +51,14 @@ feasibility constraints, hierarchical objectives, benchmark parser, and results
 on small instances. The larger-instance VNS/TS baseline can then be implemented
 and validated before adding the required innovation.
 
-The publisher-formatted version is not stored because it is not marked as open
-access. A publicly accessible pre-publication technical-report version and four
-supporting reference PDFs are kept in the project's local literature folder
-outside Git. The local `document/literature` shortcut is excluded by
-`.gitignore`.
+The formal 2014 journal Version of Record supplied by the user is kept in the
+project's local literature folder outside Git. Other shortlisted papers are
+recorded by title and DOI only; the user is responsible for obtaining their
+formal journal PDFs. Codex does not download papers or retain technical reports,
+preprints, accepted manuscripts, or author manuscripts as substitutes. After
+the user supplies a PDF, it must be verified as the Version of Record before it
+is added to the local collection. The local `document/literature` shortcut is
+excluded by `.gitignore`.
 
 ## Evidence sources
 
