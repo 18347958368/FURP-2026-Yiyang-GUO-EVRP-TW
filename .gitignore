@@ -58,6 +58,19 @@ Thumbs.db
 !/FURP_Showcase.pdf
 data/
 
+# Curated experiment summaries that are small enough to review
+!experiments/
+!experiments/summaries/
+!experiments/summaries/**/*.csv
+!experiments/summaries/**/*.tsv
+
+# Large media deliverables; store externally and link from docs
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
 # Secrets — NEVER commit credentials
 .env
 .env.*
@@ -86,6 +99,9 @@ secrets.*
 
 # Local literature shortcut (the files live in ~/Documents)
 /document/
+
+# Read-only reference repositories
+/reference/
 
 # Generated experiment output and local scratch work
 /results/
