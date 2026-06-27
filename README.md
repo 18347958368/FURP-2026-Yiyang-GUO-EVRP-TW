@@ -23,20 +23,20 @@ This is your project home for the FURP programme. **Fork this template**, rename
 
 ---
 
-## Project Info — *fill this in*
+## Project Info
 
 | Field | Your entry |
 |---|---|
-| Student name(s) | _e.g. Jason Zhang_ |
-| Project title | _..._ |
-| Project tag | _e.g. ROSBootcamp_ |
+| Student name(s) | Yiyang Guo |
+| Project title | Replication and Extension of the Electric Vehicle-Routing Problem with Time Windows and Recharging Stations |
+| Project tag | EVRP-TW |
 | Track | Research |
-| Supervising faculty | _..._ |
-| Project lead | _..._ |
-| Team or individual | _..._ |
+| Supervising faculty | To be confirmed |
+| Project lead | To be confirmed |
+| Team or individual | Individual |
 | Cited paper being replicated | Michael Schneider, Andreas Stenger, and Dominik Goeke (2014), [The Electric Vehicle-Routing Problem with Time Windows and Recharging Stations](https://doi.org/10.1287/trsc.2013.0490), *Transportation Science*, 48(4), 500-520. DOI: `10.1287/trsc.2013.0490` |
 
-**One-line summary:** _What is your project about? (1–2 sentences)_
+**One-line summary:** This project reproduces the core modelling and computational workflow for Schneider, Stenger, and Goeke's E-VRPTW study, then evaluates practical extensions around route feasibility, charging-station insertion, and reproducible open-source baselines.
 
 ### Replication paper resources
 
@@ -110,10 +110,10 @@ Any **leave of absence** or **withdrawal** must be notified to us **by email** �
 
 ## Quick checklist
 
-- [ ] Forked the template and renamed the repo (`FURP-2025/YourName-ProjectTag`)
+- [x] Forked the template and renamed the repo (`FURP-2026-Yiyang-GUO-EVRP-TW`)
 - [ ] Made the repo public **or** shared it with the research group
-- [ ] Filled in the *Project Info* table above
-- [ ] Created `docs/01_weekly.md` from the weekly template
+- [x] Filled in the *Project Info* table above
+- [x] Created `docs/01_weekly.md` from the weekly template
 - [ ] Created my first file in `docs/meeting_notes/`
 - [ ] (By Showcase) Added `FURP_Showcase.pdf` to the repo root
 
